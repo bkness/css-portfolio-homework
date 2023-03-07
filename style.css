@@ -29,6 +29,9 @@ h1 {
 }
 
 nav a {
+    flex-direction: row;
+    justify-content: flex-end;
+    text-align: right;
     color: aqua
     
 }
@@ -37,7 +40,7 @@ h2 {
     background-color: aqua;
 }
 
-nav {
+.nav ul{
     justify-content: flex-end;
     display: flex;
     flex-direction: row;
@@ -50,6 +53,7 @@ h3 {
 }
 
 .box {
+    background-image: url(https://png.pngtree.com/background/20220714/original/pngtree-blue-arrows-picture-image_1604501.jpg);
     border: 1px solid black;
     height: 50vh;
     display: flex;
@@ -59,26 +63,43 @@ h3 {
 }
 
 .box1 {
-    border: 1px solid black;
+    justify-content: center;
     display: flex;
     flex-direction: row;
+    text-align: center;
+    padding: 6%;
     
 }
 
-.box1 div {
-    
+.box2 {
+    justify-content: center;
+    display: flex;
+    flex-direction: row;
+    text-align: center;
+    padding: 6%;
+    height: 150vh;
+
+}
+
+.box3 {
+    display: flex;
+    justify-content: flex-end;
+    flex-direction: row;
+    border: 1px solid gray;
     
 }
 
 .div1 {
     flex: 1;
-    border-right: 3px solid black;
+    
+    border-right: 3px solid gray;
     
 
 }
 
 .div2 {
     flex: 2;
+    justify-content: flex-end;
     
 }
 
@@ -87,20 +108,46 @@ h3 {
    
 }
 
-.div4 [
+.div4 {
     flex: 1;
-    border-right: 3px solid black;
+    
+    justify-content: center;
     
     
-]
 
-.box2 {
-    border: 1px solid black;
 }
 
-.box3 {
+.div5 {
+    flex: 2;
+    border: 1px solid gray;
+    height: 30vh;
+    justify-content: center;
+    
+
+}    
+
+.div6 {
+    flex: .5;
+} 
+
+
+
+
+h4 {
+    flex: 2;
     border: 1px solid black;
+    
 }
 
+.div11 {
+    flex: 1;
 
-    
+}    
+
+.div12 {
+    flex: 2;
+}
+
+.div13 {
+    flex: .;5
+}
